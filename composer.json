@@ -1,0 +1,41 @@
+{
+  "name": "nox-it/yii2-nox-tinymce",
+  "description": "Yii2 TinyMCE Widget",
+  "type": "library",
+  "keywords": [
+    "yii2",
+    "extension",
+    "migration",
+    "framework",
+    "php"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Jonatas Sas",
+      "email": "atendimento@jsas.com.br"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "2.*",
+    "nox-it/yii2-nox": "1.*",
+    "tinymce/tinymce": "4.3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "nox\\widgets\\": "widgets"
+    }
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://bitbucket.org/noxit-plugins/yii2-nox-tinymce"
+    }
+  ]
+}
