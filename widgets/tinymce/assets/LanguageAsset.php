@@ -1,9 +1,18 @@
 <?php
-namespace pendalf89\tinymce;
 
-use yii\web\AssetBundle;
+    namespace nox\widgets\tinymce\assets;
 
-class LanguageAsset extends AssetBundle
-{
-    public $sourcePath = '@vendor/pendalf89/yii2-tinymce/langs';
-} 
+    use yii\web\AssetBundle;
+
+    /**
+     * Class LanguageAsset
+     *
+     * @package nox\widgets\tinymce\assets
+     */
+    class LanguageAsset extends AssetBundle
+    {
+        /**
+         * @var string
+         */
+        public $sourcePath = '@vendor/nox-it/yii2-nox-tinymce/tinymce/assets/messages';
+    }

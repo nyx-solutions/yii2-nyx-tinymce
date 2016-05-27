@@ -22,11 +22,12 @@
     "php": ">=5.4.0",
     "yiisoft/yii2": "2.*",
     "nox-it/yii2-nox": "1.*",
+    "nox-it/yii2-nox-helpers": "1.*",
     "tinymce/tinymce": "4.3.*"
   },
   "autoload": {
     "psr-4": {
-      "nox\\widgets\\": "widgets"
+      "nox\\widgets\\tinymce\\": "widgets/tinymce"
     }
   },
   "config": {

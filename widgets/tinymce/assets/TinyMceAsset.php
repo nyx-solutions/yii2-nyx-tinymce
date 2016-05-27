@@ -1,11 +1,28 @@
 <?php
-namespace pendalf89\tinymce;
 
-use yii\web\AssetBundle;
+    namespace nox\widgets\tinymce\assets;
 
-class TinyMceAsset extends AssetBundle
-{
-    public $sourcePath = '@vendor/tinymce/tinymce';
-    public $js = ['tinymce.jquery.min.js'];
-    public $depends = ['yii\web\JqueryAsset'];
-} 
+    use yii\web\AssetBundle;
+
+    /**
+     * Class TinyMceAsset
+     *
+     * @package nox\widgets\tinymce\assets
+     */
+    class TinyMceAsset extends AssetBundle
+    {
+        /**
+         * @var string
+         */
+        public $sourcePath = '@vendor/tinymce/tinymce';
+
+        /**
+         * @var array
+         */
+        public $js = ['tinymce.jquery.min.js'];
+
+        /**
+         * @var array
+         */
+        public $depends = ['yii\web\JqueryAsset'];
+    }
