@@ -9,8 +9,8 @@
     "framework",
     "php"
   ],
-  "license": "MIT",
-  "version": "1.0.1",
+  "license": "BSD-3-Clause",
+  "version": "1.0.2",
   "authors": [
     {
       "name": "Jonatas Sas",
@@ -35,7 +35,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://bitbucket.org/noxit-plugins/yii2-nox-tinymce"
+      "url": "https://github.com/nox-it/yii2-nox-tinymce"
     }
   ]
 }
