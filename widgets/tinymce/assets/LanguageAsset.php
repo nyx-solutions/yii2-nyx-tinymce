@@ -6,13 +6,16 @@
 
     /**
      * Class LanguageAsset
-     *
-     * @package nox\widgets\tinymce\assets
      */
     class LanguageAsset extends AssetBundle
     {
         /**
-         * @var string
+         * @inheritdoc
          */
-        public $sourcePath = '@vendor/nox-it/yii2-nox-tinymce/tinymce/assets/messages';
+        public function init()
+        {
+            $this->sourcePath = '@vendor/nox-it/yii2-nox-tinymce/tinymce/assets/messages';
+
+            parent::init();
+        }
     }

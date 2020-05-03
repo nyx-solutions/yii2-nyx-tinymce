@@ -3,26 +3,22 @@
     namespace nox\widgets\tinymce\assets;
 
     use yii\web\AssetBundle;
+    use yii\web\JqueryAsset;
 
     /**
      * Class TinyMceAsset
-     *
-     * @package nox\widgets\tinymce\assets
      */
     class TinyMceAsset extends AssetBundle
     {
         /**
-         * @var string
+         * @inheritdoc
          */
-        public $sourcePath = '@vendor/tinymce/tinymce';
+        public function init()
+        {
+            $this->sourcePath = '@vendor/tinymce/tinymce';
+            $this->js         = ['tinymce.jquery.min.js'];
+            $this->depends    = [JqueryAsset::class];
 
-        /**
-         * @var array
-         */
-        public $js = ['tinymce.jquery.min.js'];
-
-        /**
-         * @var array
-         */
-        public $depends = ['yii\web\JqueryAsset'];
+            parent::init();
+        }
     }

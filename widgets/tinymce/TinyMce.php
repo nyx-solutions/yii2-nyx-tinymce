@@ -18,7 +18,7 @@
          * Please refer to the TinyMCE JS plugin Web page for possible options.
          * @see http://www.tinymce.com/wiki.php/Configuration
          */
-        public $clientOptions = [];
+        public array $clientOptions = [];
 
         /**
          * @inheritdoc

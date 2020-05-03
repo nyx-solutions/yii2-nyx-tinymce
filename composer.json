@@ -2,15 +2,9 @@
   "name": "nox-it/yii2-nox-tinymce",
   "description": "Yii2 TinyMCE Widget",
   "type": "library",
-  "keywords": [
-    "yii2",
-    "extension",
-    "migration",
-    "framework",
-    "php"
-  ],
+  "keywords": ["yii2", "extension", "migration", "framework", "php"],
   "license": "BSD-3-Clause",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "authors": [
     {
       "name": "Jonatas Sas",
@@ -19,10 +13,10 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "php": ">=5.4.0",
-    "nox-it/yii2-nox": "1.*",
-    "nox-it/yii2-nox-helpers": "1.*",
-    "tinymce/tinymce": "4.3.*"
+    "php": ">=7.4.0",
+    "nox-it/yii2-nox": "~2.0.0",
+    "nox-it/yii2-nox-helpers": "~2.0.0",
+    "tinymce/tinymce": "~4.3.0"
   },
   "autoload": {
     "psr-4": {
@@ -33,6 +27,10 @@
     "process-timeout": 1800
   },
   "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    },
     {
       "type": "vcs",
       "url": "https://github.com/nox-it/yii2-nox-tinymce"
