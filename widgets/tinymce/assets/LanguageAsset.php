@@ -1,6 +1,6 @@
 <?php
 
-    namespace nox\widgets\tinymce\assets;
+    namespace nyx\widgets\tinymce\assets;
 
     use yii\web\AssetBundle;
 
@@ -14,7 +14,7 @@
          */
         public function init()
         {
-            $this->sourcePath = '@vendor/nox-it/yii2-nox-tinymce/tinymce/assets/messages';
+            $this->sourcePath = '@vendor/nyx-solutions/yii2-nyx-tinymce/tinymce/assets/messages';
 
             parent::init();
         }

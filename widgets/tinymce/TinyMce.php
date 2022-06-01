@@ -1,11 +1,11 @@
 <?php
 
-    namespace nox\widgets\tinymce;
+    namespace nyx\widgets\tinymce;
 
-    use nox\helpers\HtmlHelper;
-    use nox\helpers\JsonHelper;
-    use nox\widgets\tinymce\assets\LanguageAsset;
-    use nox\widgets\tinymce\assets\TinyMceAsset;
+    use nyx\helpers\HtmlHelper;
+    use nyx\helpers\JsonHelper;
+    use nyx\widgets\tinymce\assets\LanguageAsset;
+    use nyx\widgets\tinymce\assets\TinyMceAsset;
     use yii\widgets\InputWidget;
 
     /**

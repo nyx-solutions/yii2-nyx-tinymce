@@ -1,6 +1,6 @@
 <?php
 
-    namespace nox\widgets\tinymce\assets;
+    namespace nyx\widgets\tinymce\assets;
 
     use yii\web\AssetBundle;
     use yii\web\JqueryAsset;
