@@ -1,4 +1,4 @@
-Yii PHP Framework Version 2 / NOX TinyMCE Widget
+Yii PHP Framework Version 2 / NYX TinyMCE Widget
 ================================================
 
 Renders a TinyMCE WYSIWYG text editor plugin widget. Inspired by [PendalF89/yii2-tinymce](https://github.com/PendalF89/yii2-tinymce) extension.
